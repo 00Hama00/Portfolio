@@ -1,0 +1,90 @@
+
+
+Mohamed Moussi
+ ̄
+Mohamed Moussi|
+R
+m.mohamed.moussi@gmail.com|
+Æ
++216 96 747 668
+Experience
+Robotics Software EngineerOct 2025 – Present
+BS Automation
+•
+Develop and maintain the completerobot control system, implementing new control features and system
+improvements.
+•
+Manageclient-reported issuesby analyzing logs, reproducing bugs, performing root-cause analysis, and deploying
+validated fixes.
+•
+Debug real-timemotion, synchronization, and communicationlayers, ensuring stable integration between
+control, programming, and vision systems.
+Robotics Software intern (7 months)Feb 2025 – Aug 2025
+BS Automation
+•
+Redesigned theTOG.519 cobotfrom 5 to 4 axes, improving speed, reducing complexity, and optimizing
+kinematics, calibration, and communication.
+•
+Upgraded theProgramming Systemto support 4- and 5-axis modes, automating calibration and ensuring
+scalability for future robot configurations.
+Part-Time Robotics Software Engineer (3 months)Oct 2024 – Dec 2024
+BS Automation
+•
+Built anOpenDDS-based communication systemforIDS cameras.
+•
+Conducted a comparative study ofOpenDDS vs enterprise solutions, assessing performance, scalability, and
+feasibility.
+Robotics Software intern (3 months)Jul 2024 – Sept 2024
+BS Automation
+•
+Designed a high-performancevision systemon Jetson AGX Xavier, boosting accuracy by 40% and developing
+C++/Pythonmodules for calibration, processing, and testing.
+•
+Integrated the vision system withTwinCATcontrol algorithms, deploying real-time cobot automation routines.
+Industrial Automation intern (2 months)Jun 2023 – Jul 2023
+AS2E
+•
+Programmed and simulated robotic motion sequences usingMotoSim EG-VRC, improving operational efficiency by
+20%.
+•
+Acquired hands-on experience withYASKAWA industrial robots, focusing on robotic mechanics and integration
+into automated production lines.
+Projects
+Autonomous Robot|Python, C, Computer Vision, STM32, ROS, SolidWorksSept 2022 – Mar 2023
+•
+Designed and programmed anautonomous mobile robotforEUROBOT 2023, implementing odometry and
+motion control on STM32 to boost positioning accuracy by20%.
+•
+Built areal-time, multi-processor systemconnecting STM32, Arduino, and Raspberry Pi with integrated
+computer vision, enabling fully autonomous navigation and object interaction.
+Robotic Arm Chess Player|C++, Python, Arduino, ROS, OpenCV, RViz, StockfishJan 2024 – May 2024
+•
+Engineered afully autonomous robotic armcapable of playing chess, leveraging ROS + RViz for motion planning
+and Arduino for real-time actuation, increasing accuracy by25%.
+•
+Integratedcomputer visionfor board and piece detection and implemented forward/inverse kinematics for precise
+gameplay execution.
+Assistive Ball Launcher|Raspberry Pi, Arduino, SolidWorks, Computer VisionDec 2023 – Mar 2024
+•
+Designed and developed anassistive ball launcherto help visually impaired football players navigate and interact
+on the field.
+•
+IntegratedRaspberry Pi–Arduino communication with camera-based localization, improving response time
+by30%and reaching90% build accuracyvia SolidWorks modeling, laser cutting, and 3D printing.
+
+Technical Skills
+Programming:  C/C++, Python, C#, Java, SQL, Bash
+Robotics & Automation:  TwinCAT, EtherCAT, ROS/ROS2, PLCs (TIA Portal), Motion Control, Kinematics
+Vision & AI: OpenCV, TensorFlow, MediaPipe, Camera Calibration, Image Processing
+Embedded Systems:  STM32, Arduino, Raspberry Pi, NVIDIA Jetson
+Communication:  UDP, OpenDDS, Protobuf, TCP/IP
+Tools:  Git, Azure DevOps, Visual Studio, VS Code, SolidWorks, MATLAB/Simulink
+Education
+National Institute of Applied Sciences and TechnologyTunis,Tunisia
+Robtics Software Engineering Student2020 - 2025
+Languages
+Arabic:NativeEnglish:FluentFrench:FluentItalian:Basic
+Extra Curricular Activities
+President of Robolympix 2.0Jan 2024 – Mar 2024
+Technical vice President of Aerobotix INSATSept 2023 – Jun 2024
+Board member of the Association of Robotics TechniquesSept 2023 – Jan 2025
