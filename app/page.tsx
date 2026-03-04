@@ -84,12 +84,10 @@ export default function ModernPortfolio() {
   ]
 
   const skills = {
-    "Programming Languages": ["C/C++", "Python", "C#", "Java", "SQL", "Bash"],
-    "Robotics & Automation": ["TwinCAT", "EtherCAT", "ROS/ROS2", "PLCs (TIA Portal)", "Motion Control", "Kinematics"],
-    "Vision & AI": ["OpenCV", "TensorFlow", "MediaPipe", "Camera Calibration", "Image Processing"],
-    "Embedded Systems": ["STM32", "Arduino", "Raspberry Pi", "NVIDIA Jetson"],
-    "Communication": ["UDP", "OpenDDS", "Protobuf", "TCP/IP"],
-    "Tools": ["Git", "Azure DevOps", "Visual Studio", "VS Code", "SolidWorks", "MATLAB/Simulink"],
+    "Control Systems & Industrial Robotics:": ["Real-Time Control Systems", "Motion Control", "Kinematics", "TwinCAT", "EtherCAT", "PLC Programming", "Industrial Automation Architectures"
+    ],
+    "Software Engineering:": ["C/C++", "Python", "Embedded Systems (STM32, Raspberry Pi, NVIDIA Jetson)", "System Debugging", "Git", "Azure DevOps"],
+    "Vision & Communication Systems:": ["OpenCV", "Camera Calibration", "Image Processing", "UDP/TCP-IP", "OpenDDS", "Protobuf", "Inter-Process Communication"],
   }
 
   return (
