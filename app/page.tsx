@@ -84,9 +84,12 @@ export default function ModernPortfolio() {
   ]
 
   const skills = {
-    "Programming Languages": ["C/C++", "Python", "C#", "Java", "SQL"],
-    "Frameworks & Libraries": ["ROS/ROS2", "OpenCV", "TensorFlow", "MediaPipe", "ASP.NET"],
-    "Developer Tools": ["Git", "Azure DevOps", "VS Code", "TiaPortal", "STM32CubeIDE", "SolidWorks", "Proteus"],
+    "Programming Languages": ["C/C++", "Python", "C#", "Java", "SQL", "Bash"],
+    "Robotics & Automation": ["TwinCAT", "EtherCAT", "ROS/ROS2", "PLCs (TIA Portal)", "Motion Control", "Kinematics"],
+    "Vision & AI": ["OpenCV", "TensorFlow", "MediaPipe", "Camera Calibration", "Image Processing"],
+    "Embedded Systems": ["STM32", "Arduino", "Raspberry Pi", "NVIDIA Jetson"],
+    "Communication": ["UDP", "OpenDDS", "Protobuf", "TCP/IP"],
+    "Tools": ["Git", "Azure DevOps", "Visual Studio", "VS Code", "SolidWorks", "MATLAB/Simulink"],
   }
 
   return (
@@ -310,13 +313,13 @@ export default function ModernPortfolio() {
           </div>
 
           <div className="space-y-8">
-            {/* Current Project */}
+            {/* Current Role */}
             <Card className="bg-gray-900/50 border-gray-700 border-l-4 border-l-red-500">
               <CardContent className="p-8">
                 <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
                   <div>
                     <h3 className="text-2xl font-bold text-white mb-2">
-                      End-of-Studies Project: Transforming the Tog 519 Robot
+                      Robotics Software Engineer
                     </h3>
                     <div className="flex items-center gap-3">
                       <img
@@ -329,7 +332,7 @@ export default function ModernPortfolio() {
                   </div>
                   <div className="flex items-center gap-2 text-red-500 bg-red-500/10 px-4 py-2 rounded-full">
                     <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                    <span className="font-medium">Feb 2025 – Present</span>
+                    <span className="font-medium">Oct 2025 – Present</span>
                   </div>
                 </div>
 
@@ -338,22 +341,58 @@ export default function ModernPortfolio() {
                     <li className="flex items-start gap-3">
                       <ChevronRight className="text-red-500 mt-0.5 flex-shrink-0" size={16} />
                       <span>
-                        Optimized the Tog 519 kinematic model, transitioning from a 5-axis to a 4-axis system, including
-                        updates to referencing, vision system calibration, path planning, and UDP communication.
+                        Develop and maintain the complete robot control system, implementing new control features and system improvements.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
                       <ChevronRight className="text-red-500 mt-0.5 flex-shrink-0" size={16} />
                       <span>
-                        Developed the Programming System to enable seamless switching between 4-axis and 5-axis
-                        configurations, automating updates to vision systems, calibration, and communication routines.
+                        Manage client-reported issues by analyzing logs, reproducing bugs, performing root-cause analysis, and deploying validated fixes.
                       </span>
                     </li>
                     <li className="flex items-start gap-3">
                       <ChevronRight className="text-red-500 mt-0.5 flex-shrink-0" size={16} />
                       <span>
-                        Engineered the system for flexibility, enabling future axis configurations and feature
-                        integration.
+                        Debug real-time motion, synchronization, and communication layers, ensuring stable integration between control, programming, and vision systems.
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Robotics Software Intern - Feb 2025 */}
+            <Card className="bg-gray-800/50 border-gray-700 hover:border-red-500/50 transition-colors duration-300">
+              <CardContent className="p-8">
+                <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+                  <div>
+                    <h3 className="text-2xl font-bold text-white mb-2">Robotics Software Intern</h3>
+                    <div className="flex items-center gap-3">
+                      <img
+                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bs.jpg-RO3QIgNGjW2nUZ6ibLwmUs0o04rMZt.jpeg"
+                        alt="BS Automation"
+                        className="w-8 h-8 object-contain"
+                      />
+                      <p className="text-lg text-red-400 font-semibold">BS Automation (Schubert Group)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 text-gray-400 bg-gray-700/50 px-4 py-2 rounded-full">
+                    <span className="font-medium">Feb 2025 – Aug 2025</span>
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  <ul className="space-y-3 text-gray-300">
+                    <li className="flex items-start gap-3">
+                      <ChevronRight className="text-gray-400 mt-0.5 flex-shrink-0" size={16} />
+                      <span>
+                        Redesigned the TOG.519 cobot from 5 to 4 axes, improving speed, reducing complexity, and optimizing kinematics, calibration, and communication.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <ChevronRight className="text-gray-400 mt-0.5 flex-shrink-0" size={16} />
+                      <span>
+                        Upgraded the Programming System to support 4- and 5-axis modes, automating calibration and ensuring scalability for future robot configurations.
                       </span>
                     </li>
                   </ul>
@@ -582,7 +621,7 @@ export default function ModernPortfolio() {
             <p className="text-xl text-gray-400">Comprehensive expertise across robotics and software development</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {Object.entries(skills).map(([category, skillList], index) => (
               <Card
                 key={category}
@@ -590,9 +629,10 @@ export default function ModernPortfolio() {
               >
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-white">
-                    {index === 0 && <Code className="text-red-500" size={20} />}
-                    {index === 1 && <Briefcase className="text-red-500" size={20} />}
+                    {(index === 0 || index === 5) && <Code className="text-red-500" size={20} />}
+                    {(index === 1 || index === 4) && <Briefcase className="text-red-500" size={20} />}
                     {index === 2 && <GraduationCap className="text-red-500" size={20} />}
+                    {index === 3 && <Award className="text-red-500" size={20} />}
                     {category}
                   </CardTitle>
                 </CardHeader>
