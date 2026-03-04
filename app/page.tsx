@@ -148,7 +148,7 @@ export default function ModernPortfolio() {
                   className="bg-red-500 hover:bg-red-600 text-white px-8 py-3 text-lg font-semibold"
                   onClick={() => {
                     const link = document.createElement("a")
-                    link.href = "/Mohamed_Moussi_CV.pdf" // You'll need to add your CV file to the public folder
+                    link.href = "/Mohamed_Moussi_CV.pdf"
                     link.download = "Mohamed_Moussi_CV.pdf"
                     link.click()
                   }}
